@@ -1,0 +1,31 @@
+{
+  "name": "merlinwebsite",
+  "version": "1.0.0",
+  "description": "A website developed for Merlin Nerotech at Queen's University",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "scss": "node-sass --watch scss/theme.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremychan03/merlinwebsite.git"
+  },
+  "keywords": [
+    "Bootstrap"
+  ],
+  "author": "Alec Glover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremychan03/merlinwebsite/issues"
+  },
+  "homepage": "https://github.com/jeremychan03/merlinwebsite#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-sass": "^4.9.3"
+  }
+}

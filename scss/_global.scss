@@ -1,0 +1,9 @@
+body {
+  .contain {
+    max-width: $sitewidth;
+    margin:auto;
+  }
+  .header-bg {
+    background-image: url('../media/headerbg.png');
+  }
+}
