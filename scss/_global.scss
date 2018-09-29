@@ -6,4 +6,10 @@ body {
   .header-bg {
     background-image: url('../media/headerbg.png');
   }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: $headings;
+  }
+  p {
+    font-family: $sans;
+  }
 }
