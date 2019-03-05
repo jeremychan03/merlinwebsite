@@ -22,39 +22,42 @@
 <body>
   <header class="header-bg" style= 'background-size: 100%; height:40vw'>
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="contain nav-contianer">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="contain nav-container">
+        <button class="navbar-toggler" type="button" style='background-color: rgba(255,255,255,1); width:10vw; height:5vw' data-toggle="collapse" data-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon" style='color:rgba(0,0,0,1)'></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html"  style='color:rgba(0,0,0,1)'>Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
+              <a class="nav-link" href="about-us.html"  style='color:rgba(0,0,0,1)'>About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="teams.html">Teams</a>
+              <a class="nav-link" href="teams.html" style='color:rgba(0,0,0,1)'>Teams</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="resources.html">Resources</a>
+              <a class="nav-link" href="resources.html" style='color:rgba(0,0,0,1)'>Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="news.html">News</a>
+              <a class="nav-link" href="contact-us.html" style='color:rgba(0,0,0,1)'>News</a>
             </li>
           </ul>
         </div>
       </div>
   </nav>
     <!--<div class='container'>-->
-      <div class="row h-100">
-        <div class="col h-100">
-          <div class="header-text">
-            <h1 style='width:100%; text-align:left; padding-left:69px; font-size: 12vw'><span style='font-size:6vw'>Getting Started</span><br><br>WITH US</h1>
-          </div>
+    <div class="row align-items-end" style='height:100%'>
+      <div class="col">
+        <div class='Header-title1' style='padding-left:2vw'>
+          Getting Started
+        </div>
+        <div class='Header-title2' style='padding-left:2vw'>
+          WITH US
         </div>
       </div>
+    </div>
     <!--</div>-->
   </header>
 
@@ -63,56 +66,46 @@
         <div class='col-6' style='text-align: center; border-right: solid 0.1px; border-bottom: solid 1px'>
           <img src="media/chip.png" style='width:12vw'>
           <h2 class='Resources-MiniHeading'> Our values</h2>
-          <div>
-            <div style='margin: 0 auto; width:28vw; text-align:justify'>
-              <p2 class='Resources-MiniText' style='text-align:justify'>Merlin is strongly oriented towards
+            <div class='Resources-MiniText'>
+                Merlin is strongly oriented towards
                 offering an experiential learning opportunity for all Queen’s students
                 interested in neurotechnology, software development, hardware development,
-                and coding. </p2>
+                and coding.
             </div>
-          </div>
         </div>
         <div class='col-6' style='text-align: center; border-left: solid 0.1px; border-bottom: solid 1px'>
           <img src="media/file.png" style='width:12vw'>
           <h3 class='Resources-MiniHeading'> Resources</h3>
-          <div>
-            <div style='margin: 0 auto; width:28vw; text-align:justify'>
-              <p3 class='Resources-MiniText'>Documentation and our walkthroughs of
-                Merlin’s very own WizardHat program can be found by clicking the button below.</p3>
+            <div class='Resources-MiniText'>
+                Documentation and our walkthroughs of
+                Merlin’s very own WizardHat program can be found by clicking the button below.
             </div>
-          </div>
-          <button class="Resources-Button" style="align: center"><a href="news.html" class="Resources-ButtonText">WizardHat</a></button>
+          <a href='contact-us.html'><Button class='Resources-Button'>WizardHat</Button></a>
         </div>
     </div>
     <div class='row' style="height:54vw; padding-left:60px; padding-right:60px">
       <div class='col-6' style='text-align: center; border-right: solid 0.1px; padding-top:8vw'>
         <img src="media/gradCap.png" style='width:12vw'>
         <h4 class='Resources-MiniHeading'> We help you</h4>
-        <div>
-          <div style='margin: 0 auto; width:28vw; text-align:justify'>
-            <p4 class='Resources-MiniText'>Merlin Neurotech is a no-experience-
+          <div class='Resources-MiniText'>
+              Merlin Neurotech is a no-experience-
               necessary student club. Along with providing projects for members to work
               through on their own time, we will also be hosting workshops every 2-3 weeks to
-              teach members the fundamentals!</p4>
+              teach members the fundamentals!
           </div>
-        </div>
       </div>
       <div class='col-6' style='text-align: center; border-left: solid 0.1px; padding-top:8vw'>
         <img src="media/ntx-logo.png" style='width:12vw'>
         <h5 class='Resources-MiniHeading'> How to learn</h5>
-        <div>
-          <div style='margin: 0 auto; width:28vw; text-align:justify'>
-            <p5 class='Resources-MiniText'>Our main partner, NeuroTechX have a
+          <div class='Resources-MiniText'>
+              Our main partner, NeuroTechX have a
               host of BCI tutorials and resources on their website! The button below leads to an in-
               depth description of brain-computer interfaces (BCI’s), coupled with a tutorial
-              section to begin working with BCI’s.</p5>
+              section to begin working with BCI’s.
           </div>
-        </div>
-      <button class="Resources-Button" style="align: center"><a href="http://learn.neurotechedu.com/lessons/" class="Resources-ButtonText">Tutorials</a></button>
+      <a href='news.html'><Button class='Resources-Button'>Tutorials</Button></a>
       </div>
     </div>
-    <div style="width: 100%; height: 10vw"></div>
-    <div class="Resources-Rectangle"></div>
   <!-- </div> -->
 
 
