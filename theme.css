@@ -66,6 +66,8 @@ header {
 .Resources-MiniText{
       /*width: 470px;
       height: 251px; */
+      margin: 0 auto;
+      width:28vw;
       font-family: AvenirNext;
       font-size: 24px;
       font-size: 1.8vw;
@@ -82,9 +84,8 @@ header {
       height: 6vw;
       border-radius: 41px;
       border-color: #33446a;
-      background-color: #ffffff
-    }
-.Resources-ButtonText {
+      background-color: #ffffff;
+      /*Text*/
       font-family: GoogleSans;
       font-size: 2vw;
       font-weight: 500;
@@ -94,12 +95,63 @@ header {
       letter-spacing: normal;
       text-align: center;
       color: #33446a;
-  }
+    }
+.Resources-Button:hover{
+  color: #ffffff;
+  background-color: #33446a;
+}
 .Resources-Rectangle {
       width: 100%;
       height: 17vw;
       background-color: #daecf1;
     }
+
+.Contact-us-header {
+  font-family: Futura;
+  font-size: 64px;
+  font-size: 4vw;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #135183;
+}
+.Contact-us-text {
+  font-family: AvenirNext;
+  font-size: 24px;
+  font-size: 2.2vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #000000;
+}
+.Header-title1 {
+  font-family: GoogleSans;
+  font-size: 86px;
+  font-size: 6vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.1px;
+  color: #ffffff;
+}
+.Header-title2 {
+  font-family: Futura;
+  font-size: 144px;
+  font-size: 9vw;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  color: #ffffff;
+}
+
 
 
 @font-face {
